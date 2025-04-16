@@ -216,7 +216,7 @@ Hint: Use the String.prototype.split() method to separate the first and last
       After splitting the names, rearrange them to the "First Last" format.
 */
 
-let firstLast = people.map(person => person.split(",").reverse().join())
+let firstLast = people.map(person => person.split(",").reverse().join(" "))
 
 // Complete the exercise in the space below:
 
